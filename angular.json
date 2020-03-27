@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "angular9-readonly-bug"
+    }
+  },
+  "defaultProject": "angular9-readonly-bug",
+  "cli": {
+    "analytics": false
+  }
 }

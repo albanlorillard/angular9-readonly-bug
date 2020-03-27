@@ -1,0 +1,19 @@
+/**** CASE NOT WORK ON ANGULAR 9 ****/
+
+.element1:focus,
+.element1:read-only {
+  background-color: red;
+}
+
+/**** CASE EXPECTED ****/
+
+.element2:focus,
+.element2:read-only {
+  background-color: red;
+}
+
+/* This second block should be automatically generated */
+.element2:focus,
+.element2:-moz-read-only {
+  background-color: red;
+}
